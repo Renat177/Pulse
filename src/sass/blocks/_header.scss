@@ -23,5 +23,14 @@
         color: #ffffff;
         font-weight: 700;
         font-size: 18px;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
